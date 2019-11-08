@@ -41,18 +41,26 @@
 
 Now we're ready to use Git in the terminal. Please [refer to the workshop PDF](https://github.com/honoluluwomenintech/WorkshopMaterials/blob/master/git/hwt_study_git_intro.pdf) to start learning some Git commands.
 
-### Examples of commonly used git commands
-    - to start a git repo (once git is set up on your desktop)
-```git init ```
+## Examples of commonly used git commands
+- to start a git repo (once git is set up on your desktop)
+    ```
+    git init 
+    ```
 
-    - to stage files to be commited to repo
-```git add myfile.txt```
+- to stage files to be committed to repository
+    ```
+    git add myfile.txt
+    ```
+- to commit all staged files (with a message)
+    ```
+    git commit -m 'i added a new section at the end of the file'
+    ```
+- to pull remote repository to local computer (master branch)
+    ```
+    git pull origin master
+    ```
     
-    - to commit any changes made to your file (with a message)
-```git commit -m 'i added a new section at the end of the file'```
-
-    - to pull repo from your remote server to your local computer (master branch)
- ```git pull origin master```
-    
-    - to push repo from your local computer to remote server (master branch)
- ```git push origin master```
+- to push local repository to remote server (master branch)
+     ```
+     git push origin master
+     ```
