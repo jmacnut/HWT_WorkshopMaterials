@@ -51,8 +51,15 @@ The Jupyter notebook will contain [code from this tutorial](https://medium.com/b
 1. After Jupyter completes installation, we should see it on the home page with a Launch button (instead of an Install button). Let's now click on the Launch button. In the process, you'll see a terminal window open (Mac by default comes installed with the Terminal application) that will launch Jupyter by running some code and opening up a new browser tab in your default browser.
 1. You should now see http://localhost:8888/tree open in your browser, along with different folders in your home user account, such as Applications, Desktop, Documents, and Downloads.
 
+## Working with the Terminal and Conda
+- What is the **Terminal** application? The "terminal" or "command line" is another way for us to access the contents of our computer, without any visual cues other than lines of text. There's no concept of clicking around. To mimic what we do on a computer, we need to type **commands** to tell the terminal or command line what to do. For example, typing `ls` in the terminal will show you a **list** of folders in your current folder. While you're using the terminal, note that **you're always in a folder** (as if you have the Finder application open on your Mac).
+- How else can I access the terminal or command line? The Terminal application on Mac is not the only way. There are other software that exist to allow you to access your computer via the terminal or command line. [iTerm2](https://www.iterm2.com/) is one example that allows even more customization of your terminal.
+- Why do we need terminal or command line access? We won't be learning much about the terminal or command line, other than the most basic commands. But we need to use it in this tutorial because that's the only way (at least that we know of) to **set your Conda environment in a Jupyter notebook**.
+1. First off, let's launch the Terminal application on the Mac. If it's already running, let's quit it by clicking on Terminal in the very top left of your screen and selecting Quit Terminal (or you can type CMD+Q as a shortcut). Click the Terminate button if you're asked to terminate running processes in the window. Now let's launch the Terminal application again.
+1. TODO
+
 ## Using Jupyter Notebook
 
-### Part 1. Creating a new notebook
+### Part 1. Create a new notebook -- TODO
 1. Now that we have Jupyter open in a browser tab, let's click on the New button and select "Python 3."
 1. Hooray, you've just created your first Jupyter notebook!
