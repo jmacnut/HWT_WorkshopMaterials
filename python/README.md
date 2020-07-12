@@ -34,11 +34,13 @@ The Jupyter notebook will contain [code from this tutorial](https://medium.com/b
 1. Following through on step 10 of the installation document, you can open the Anaconda Navigator by pressing CMD+Space on your keyboard, which will open up Spotlight Search. Type in "Anaconda Navigator" and press Enter to open it on your Mac.
 1. Feel free to deselect the checkbox "Yes, I'd like to help improve Anaconda" and then click "Ok, and don't show again."
 1. Since Anaconda Navigator is now open on your Mac, you have successfully installed Anaconda!
+    ![image_01](https://user-images.githubusercontent.com/1342429/87240116-6a1b7200-c3b2-11ea-98d8-c1398e73bbbb.png)
 
 ### Part 2. Create a Conda environment
 - What exactly is **Conda** and how does it differ from **Anaconda**? **Conda is a software (package) manager and an environment manager**, whereas **Anaconda is a software distribution**, which is just a fancy way of saying that it's **a collection of different software bundled together**. Anaconda's main purpose is to make it easier for data science and machine learning practitioners to get started building something. Conda, on the other hand, can create different environments (essentially different folders on your machine) and install different software to those environments. Without Conda or some other type of environment manager, you would run into a lot more issues trying to install or run various software, which might require different or older versions of some other software before they can run successfully. Conda makes it much easier to switch between different versions of Python, for example (versions 2 and 3 are very different).
 1. With the Anaconda Navigator still open, let's click on the Environments tab in the left sidebar, below Home.
 1. In the bottom left corner, click the Create button. Python 3.7 should be selected by default. Let's name our environment `python-ml` and click Create. You should see on the right that Anaconda has installed some default packages that come with your newly-created environment.
+    ![image_02](https://user-images.githubusercontent.com/1342429/87240124-828b8c80-c3b2-11ea-9134-9438624695e4.png)
 1. Now let's click back on Home in the leftmost sidebar.
 
 ### Part 3. Install Jupyter Notebook
@@ -48,10 +50,12 @@ The Jupyter notebook will contain [code from this tutorial](https://medium.com/b
 - For clarity, the term "Jupyter Notebook" or "Jupyter" is in reference to the name of the software itself. When we talk about "Jupyter notebook" with a lowercase "n," we're simply referring to any notebook that you create or use from the "Jupyter Notebook" or "Jupyter" software. Thus, a "Jupyter Notebook notebook" is akin to saying "Campbell's® Soups soup."
 1. With the Anaconda Navigator home page still open, in the top left-hand corner, select `python-ml` from the dropdown menu if it's not already selected.
 1. We should already see Jupyter Notebook on the home page, with an Install button right beneath it. Let's click on the Install button for Jupyter Notebook.
+    ![image_03](https://user-images.githubusercontent.com/1342429/87240157-ced6cc80-c3b2-11ea-92af-bafed11d5d7a.png)
 1. After Jupyter completes installation, we should see it on the home page with a Launch button (instead of an Install button). Let's now click on the Launch button. In the process, you'll see a terminal window open (Mac by default comes installed with the Terminal application) that will launch Jupyter by running some code and opening up a new browser tab in your default browser.
 1. You should now see http://localhost:8888/tree open in your browser, along with different folders in your home user account, such as Applications, Desktop, Documents, and Downloads.
+    ![image_04](https://user-images.githubusercontent.com/1342429/87240184-f037b880-c3b2-11ea-892b-9a0dcfa53aa5.png)
 
-## Working with the Terminal and Conda
+## Working with Terminal and Conda
 - What is the **Terminal** application? The "terminal" or "command line" is another way for us to access the contents of our computer, without any visual cues other than lines of text. There's no concept of clicking around. To mimic what we do on a computer, we need to type **commands** to tell the terminal or command line what to do. For example, typing `ls` in the terminal will show you a **list** of folders in your current folder. While you're using the terminal, note that **you're always in a folder** (as if you have the Finder application open on your Mac).
 - How else can I access the terminal or command line? The Terminal application on Mac is not the only way. There are other software that exist to allow you to access your computer via the terminal or command line. [iTerm2](https://www.iterm2.com/) is one example that allows even more customization of your terminal.
 - Why do we need terminal or command line access? We won't be learning much about the terminal or command line, other than the most basic commands. But we need to use it in this tutorial because that's the only way (at least that we know of) to **set your Conda environment in a Jupyter notebook**.
