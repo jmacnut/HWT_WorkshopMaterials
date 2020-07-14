@@ -60,7 +60,26 @@ The Jupyter notebook will contain [code from this tutorial](https://medium.com/b
 - How else can I access the terminal or command line? The Terminal application on Mac is not the only way. There are other software that exist to allow you to access your computer via the terminal or command line. [iTerm2](https://www.iterm2.com/) is one example that allows even more customization of your terminal.
 - Why do we need terminal or command line access? We won't be learning much about the terminal or command line, other than the most basic commands. But we need to use it in this tutorial because that's the only way (at least that we know of) to **set your Conda environment in a Jupyter notebook**.
 1. First off, let's launch the Terminal application on the Mac. If it's already running, let's quit it by clicking on Terminal in the very top left of your screen and selecting Quit Terminal (or you can type CMD+Q as a shortcut). Click the Terminate button if you're asked to terminate running processes in the window. Now let's launch the Terminal application again.
-1. TODO
+1. After the Terminal app is open, you'll see a window that you can type in. You might see the term `base` next to the prompt (the **prompt** is called a prompt because we can think of it as prompting you for your input). `base` is the default Conda environment; however, we want to switch to the environment we created. But first, let's learn some basic terminal commands.
+
+### Part 1. Learn basic commands
+1. As mentioned before, we're always in a folder/directory whenever we're using the terminal or command line. Let's "print working directory" (meaning, print the current directory we're in) by typing the command `pwd`. You should see something like `/Users/your_user_name` as the output.
+1. Type `ls` to "list" the contents (more files and folders) of the folder that we're in.
+1. We can create a new folder ("make directory") by typing `mkdir python_projects`, where `python_projects` can be anything that you want to name the folder.
+1. Now let's navigate to the new folder ("change directory") by typing `cd python_projects`. (Again, replace `python_projects` with the name you actually gave the folder.)
+1. Later, you can repeat these steps as many times as you need to, to create folders within folders if you wish. And if you want to go to a parent folder at any time, you can type `cd ..` to do so. But for now, let's remain in the `python_projects` folder.
+1. Here are a few more common commands you can try later on your own: https://scotch.io/bar-talk/10-need-to-know-mac-terminal-commands
+
+### Part 2. Quick aside: Download the project
+1. While leaving the terminal open, visit https://github.com/hawaiiwomenintech/WorkshopMaterials in a browser.
+1. Click on the green Code button and click on Download ZIP.
+1. Open that zip file so that we have the uncompressed contents. You should now see a folder called "WorkshopMaterials-master" in your Downloads folder.
+1. Back in your terminal, type `open .` to open up the current folder that we're in (note that the `.` stands for the current folder).
+1. You can now drag the "WorkshopMaterials-master" folder into the `python_projects` folder. Let's rename "WorkshopMaterials-master" to simply "WorkshopMaterials" and close the `python_projects` Finder folder.
+1. Back in our terminal, if we type `ls`, we'll see the folder.
+1. Let's type `cd WorkshopMaterials` to navigate to the folder and type `ls` to see a `python` folder.
+1. Let's type `cd python` to enter the folder and type `ls` to see a `README.md` and `regression_pytorch.ipynb`.
+1. We're almost ready to work with the notebook! But first, let's learn some important Conda commands.
 
 ## Using Jupyter Notebook
 
