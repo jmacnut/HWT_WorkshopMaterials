@@ -25,7 +25,8 @@ If you have a jupyter notebook and python conda environment already set up on yo
 
 ### Online Resouce
 We have two options for you today.  We will walk through the process during our session today.
-**Please make sure you are part of our [HaWT Slack Workspace](https://hawaiiwomenintech.herokuapp.com/)** , so you can participate in our active discussion during our session. We also have other members ready to help out and answer any questions!
+
+**Are you on our HaWT Slack workspace?** If not, join us and participate in our active discussions during our session. [HaWT Slack Workspace](https://hawaiiwomenintech.herokuapp.com/)  
 
 * mybinder.org allows you to create a "virtual computer"   (no need to create an account)
   - go to [https://mybinder.org/](https://mybinder.org/)
@@ -33,6 +34,9 @@ We have two options for you today.  We will walk through the process during our 
 
 
 * Kaggle.com provides a jupyter notebook workspace. (need to create an account)
-  - go to [https://kaggle.com/](https://kaggle.com/) and creaet an account
-
+  - go to [https://kaggle.com/](https://kaggle.com/) and create an account
+  
+## Regression Analysis
+* **/python/codes/V1_regression_pytorch2.ipynb** Running a simple linear regression analysis 
+* **/python/codes/V2_regression_pytorch_normalization.ipynb** Normalizing data, Training/validating datasets, Learning rate, prediction
 
