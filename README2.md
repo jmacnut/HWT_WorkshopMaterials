@@ -40,3 +40,9 @@ We have two options for you today.  We will walk through the process during our 
 * **/python/codes/V1_regression_pytorch2.ipynb** Running a simple linear regression analysis 
 * **/python/codes/V2_regression_pytorch_normalization.ipynb** Normalizing data, Training/validating datasets, Learning rate, prediction
 
+## References
+
+- **PyTorch:** An open source machine learning framework that supports training on GPUs and uses tensors. One of the two most popular deep learning frameworks right now (the other is TensorFlow). https://pytorch.org
+- **Linear regression:** An approach to modeling the relationship between a dependent variable and one or more explanatory variables. Simple linear regression = one explanatory variable. Commonly used in predictive analysis. Basically, you've got a bunch of data points, now draw a line in the middle of them. Use that line's equation to predict where new points should go in the space. Now your job is to find the slope and intercept (weight and bias, respectively). https://en.wikipedia.org/wiki/Linear_regression
+- **Neural network:** A set of algorithms loosely modeled after neurons in the human brain, designed to recognize patterns. Can have variable numbers of neurons (one to billions) and one or more architectures mixed in (convolutional, recurrent, attention). https://en.wikipedia.org/wiki/Artificial_neural_network
+- **Training a neural network:** Run examples through the network, calculate the loss between the actual answer and the predicted answer, then [backpropagate](https://en.wikipedia.org/wiki/Backpropagation) that loss through the network, updating the weights with the gradients calculated in backpropagation. This is how the network learns.
