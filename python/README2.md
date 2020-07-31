@@ -18,24 +18,25 @@ We plan to go through the following:
 ## Getting started
 Download the session materials at https://github.com/hawaiiwomenintech/WorkshopMaterials
 
+Join the HaWT Slack "chatting room" at https://hawaiiwomenintech.herokuapp.com/
+
 ## Launching the python project environment
 
-### On your device
-If you have a jupyter notebook and python conda environment already set up on your computer, start your jupyter notebook
-
 ### Online Resouce
-We have two options for you today.  We will walk through the process during our session today.
+[Kaggle](https://www.kaggle.com) provides a jupyter notebook workspace (and more!). To save your work, you need to create an account and it's free. (highly recommended)
+  - https://www.kaggle.com/sundancefish/v1-regression-pytorch2
+  - https://www.kaggle.com/sundancefish/v2-regression-pytorch-normalization
 
-**Are you on our HaWT Slack workspace?** If not, join us and participate in our active discussions during our session. [HaWT Slack Workspace](https://hawaiiwomenintech.herokuapp.com/)  
-
-* mybinder.org allows you to create a "virtual computer"   (no need to create an account)
-  - go to [https://mybinder.org/](https://mybinder.org/)
-  - in Github URL, copy and paste the following: https://github.com/hawaiiwomenintech/WorkshopMaterials
-
-
-* Kaggle.com provides a jupyter notebook workspace. (need to create an account)
-  - go to [https://kaggle.com/](https://kaggle.com/) and create an account
   
+  
+### On your device
+If you have a jupyter notebook and python conda environment already set up on your computer, start your jupyter notebook.
+- Launch jupyter notebook from anaconda
+- In terminal type `jupyter notebook`
+
+To start conda virtual environment   `conda activate [YOUR ENV NAME]`
+
+
 ## Regression Analysis
 * **/python/codes/V1_regression_pytorch2.ipynb** Running a simple linear regression analysis 
 * **/python/codes/V2_regression_pytorch_normalization.ipynb** Normalizing data, Training/validating datasets, Learning rate, prediction
