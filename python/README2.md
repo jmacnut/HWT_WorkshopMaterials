@@ -22,14 +22,14 @@ Join the HaWT Slack "chatting room" at https://hawaiiwomenintech.herokuapp.com/
 
 ## Launching the python project environment
 
-### Online Resouce
+#### Online Resouce
 [Kaggle](https://www.kaggle.com) provides a jupyter notebook workspace (and more!). To save your work, you need to create an account and it's free. (highly recommended)
   - https://www.kaggle.com/sundancefish/v1-regression-pytorch2
   - https://www.kaggle.com/sundancefish/v2-regression-pytorch-normalization
 
   
   
-### On your device
+#### On your device
 If you have a jupyter notebook and python conda environment already set up on your computer, start your jupyter notebook.
 - Launch jupyter notebook from anaconda
 - In terminal type `jupyter notebook`
